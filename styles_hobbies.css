@@ -1,0 +1,112 @@
+
+
+
+
+
+abc,h1 {font-family: "Raleway", sans-serif}
+abc{height: 100%}
+.bgimg {
+  background-image: url('Images/forestbridge.jpeg');
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.cde{position:absolute;top:55%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+
+
+
+/* Style for Photographs Section */
+.photo-section-hob {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 75px 12px;
+}
+
+.photo-section-hob img {
+    width: 355px;
+    height: 275px;
+    border-radius: 8px;
+    margin: 5px;
+	object-fit:cover;
+}
+/* Style for Hobbies Section */
+.hobby-section {
+    margin-bottom: 200px;
+	
+}
+
+.hobbytext h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+	margin-left: 120px;
+	
+}
+
+.hobbytext p {
+    font-size: 20px;
+
+	margin-left: 100px;
+	text-align: center;
+	margin: auto 100px;
+}
+
+/* Style for Comments Section */
+.commentsectionhob {
+    max-width: 80%;
+    margin: 50px 250px;
+  
+  padding: 25px;
+    background-image: linear-gradient(to right, #b8d3fe 0%, #e3d7ff 100%);
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+
+.comments-section {
+    margin: 40px;
+	max-width: 90%;
+	text-align: right;
+}
+
+#comments {
+    margin-bottom: 20px;
+	
+}
+
+#commentInput {
+    width: 100%;
+    padding: 10px;
+	padding-bottom: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style for Social Media Buttons */
+.social-media-buttons {
+    margin-top: 20px;
+}
+
+.social-media-buttons button {
+    margin-right: 10px;
+}
+

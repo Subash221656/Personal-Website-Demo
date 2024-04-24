@@ -1,0 +1,277 @@
+<!-- page3.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles.css"> <!-- Linking the common styles -->
+    <link rel="stylesheet" href="Music.css"> <!-- Linking the My Hobbies styles -->
+
+    <title>My Music</title>
+	<link rel="icon" type="images/x-icon" href="Images/logo.png" />
+	
+	<style>
+        .lyrics {
+            display: none;
+            white-space: pre-line;
+        }
+    </style>
+	
+    <script>
+        function toggleLyrics() {
+            var lyrics = document.getElementsByClassName('lyrics')[0];
+            if (lyrics.style.display === 'none') {
+                lyrics.style.display = 'block';
+            } else {
+                lyrics.style.display = 'none';
+            }
+        }
+    </script>
+	
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <!-- Navigation Menu - Horizontal -->
+        <nav class="horizontal-menu">
+            <ul>
+                   <li><a href="index.html"><img src="Images/logo.png" alt="logo" width="50" height="40"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="MyStudy.html">My Study Subject</a></li>
+            <li><a href="MyMusic.html">My Music</a></li>
+			<li><a href="MyHobbies.html">My Hobbies</a></li>
+            <li><a href="Myhouse.php">My House</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Content Section -->
+    <section class="contentmusic">
+       
+        <h2 style="margin: 0 auto; font-family: 'Times New Roman', serif; font-size: 35px;">Photographs and Visuals</h2>
+        <div class="photo-section">
+            
+            <img src="Images/bperform.png" alt="Performance Photo">
+            <img src="Images/bvisual.jpg" alt="Album Cover">
+		
+	
+		
+        </div>
+
+       
+
+        <!-- Discography Section -->
+        <h2 style="margin: 0 auto; font-family: 'Times New Roman', serif; font-size: 35px; text-align: center">Popular Album</h2>
+        <div class="discography">
+          
+            <div class="album">
+                <img src="Images/albumcover.jpg" alt="Album Cover 1">
+                <h3>Album Maya</h3>
+                <p>Release Date: January 1, 2022</p>
+                <p>Tracklist: 1. Song 1, 2. Song 2, ...</p>
+				<hr>
+			</div>
+			 </section>
+			 
+			 <div style="display: flex; align-items: center; justify-content: center;">
+ <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5E0sXnElQefAgroQN2j9hq?utm_source=generator" width="82%" height="400" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+</div>
+        <!-- Music Videos Section -->
+        <h2 style="margin: 5% 5%; font-family: 'Times New Roman', serif; font-size: 35px;">Music Videos</h2>
+        <div class="music-videos">
+           
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/50nlLm9Gmug?si=br6JA_dVJqo2mT2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          
+        </div><br>
+        <!-- Lyrics Section -->
+		
+       <button onclick="toggleLyrics()" class="lyricsbutton">
+	   Lyrics :
+	  </button>
+	  <br><br><br>
+        <div class="lyrics">
+            <!--lyrics  -->
+            <br><h3>Nau Lakhey Tara</h3><hr style="margin-top: 2%; width: 50%;">
+            <pre>
+
+[Verse 1]
+
+……..G           G
+आकाश  भरि  नौ लाखे तारा,
+……..G          Am
+आकाश भरि नौ लाखे तारा
+D
+झलल बलिरहे छौ है
+………………G
+तिमी कति टाढा
+…..G          G
+सुनसान छ यहाँ चारैतिर,
+…..G        Am
+सुनसान छ यहाँ चारैतिर
+D
+त्यो पारी गाँउमा
+………………….G
+बिजुली बत्ति जलेछ
+
+G
+झ ल ल ल ल ल ल
+D
+ल ल ल ल ल ल
+C             G
+झ ल ल ल ल ल ल ल ल ल
+
+[Verse 2]
+
+……G         G
+जिवन यसै बित्ने हो कि ?
+…..G        Am
+जिवन यसै बित्ने हो कि ?
+D
+अधुरो जिवन यो
+………………..G
+अधुरो बित्ने हो कि
+……..G          G
+आकाश भरि नौ लाखे तारा,
+……..G         Am
+आकाश भरि नौ लाखे तारा
+D
+झलल बलिरहे छौ है
+………………G
+तिमी कति टाढा
+
+…G
+[ झ ल ल ल ल ल ल
+D
+ल ल ल ल ल ल
+C             G
+झ ल ल ल ल ल ल ल ल ल ] – 3
+
+
+            </pre>
+            <!-- Add more songs and lyrics as needed -->
+        </div>
+		
+		<br><br>
+ <!-- Music Samples Section -->
+        <h2 style="margin: 1% 5%; font-family: 'Times New Roman', serif; font-size: 35px;">Music Samples</h2>
+        <div class="music-samples">
+           <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193361144&color=%23ff5500&auto_play=false&hide_related=false&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+		   <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/124359414&color=%23ff5500&auto_play=false&hide_related=false&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/93726270&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+		  <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/83182976&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1047284320&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>		 
+		  <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/745340794&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+		  <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/745340524&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+		  <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1047290587&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+		  <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1047290311&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+		</div>
+
+<!-- playlist Section -->
+<h1 style="margin: 0 auto; font-family: 'Times New Roman', serif; font-size: 35px; text-align: center">My Playlist</h1><hr style="width: 10%;">
+<div class="Audioplaylist" id="Audioplaylist">
+    
+    
+    
+</div>
+
+<div class="player">
+        <audio id="audioPlayer" controls>
+            <source src="song1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+<ul id="playlist">
+        <li class="current-song"><a href="Audios/hindahindai.mp3" data-cover="Images/song1cover.jpg">Hindda Hinddai</a></li>
+        <li><a href="Audios/dontcry.mp3" data-cover="Images/song2cover.jpg">Don't Cry</a></li>
+        <li><a href="Audios/lethergo.mp3" data-cover="Images/song3cover.png">Let Her Go</a></li>
+	    <li><a href="Audios/kaloseto.mp3" data-cover="Images/song4cover.jpg">Kalo Seto</a></li>
+        <li><a href="Audios/YWF.mp3" data-cover="Images/song5cover.jpg">Young Wild & Free</a></li>
+	    <li><a href="Audios/Queens.mp3" data-cover="Images/song6cover.jpg">Bohemian Rhapsody</a></li>
+        
+    </ul>
+<hr style="margin-top: 5%; width: 80%;">
+
+    <script>
+     var audioPlayer = document.getElementById('audioPlayer');
+var playlist = document.getElementById('playlist');
+var links = playlist.getElementsByTagName('a');
+for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener('click', function(e) {
+        e.preventDefault();
+        var song = this.getAttribute('href');
+        var cover = this.getAttribute('data-cover');
+        playSong(song, cover);
+    });
+}
+function playSong(song, cover) {
+    audioPlayer.src = song;
+    audioPlayer.play();
+    document.getElementById('Audioplaylist').style.backgroundImage = 'url(' + cover + ')';
+}
+
+    </script>
+
+   <!-- social media interaction -->
+   <h2 style="margin: 5% auto; font-family: 'Times New Roman', serif; font-size: 35px; text-align: center">Social Media</h2>
+ <div class="Social-Media">
+    <div class="Instagram">
+        <img src="Images/insta.png" alt="Image" class="image">
+        <div class="img_text">
+            <button class="button"> 
+                <a href="https://www.instagram.com/bipulchettri/" target="_blank">
+                    <img src="Images/insta_logo.png" class="button-image">
+                </a>
+            </button>
+        </div>
+    </div>
+    <div class="Twitter">
+        <img src="Images/tweet.png" alt="Image" class="image">
+        <div class="img_text">
+            <button class="button"> 
+                <a href="https://x.com/bipulchettri?s=20" target="_blank">
+                    <img src="Images/twitter_logo.png" class="button-image">
+                </a>
+            </button>
+        </div>
+    </div>
+</div>
+<br><br>
+       
+        <!-- Comments Section -->
+        <h2 style="margin: 0% 5%; font-family: 'Times New Roman', serif; font-size: 30px;">Comments</h2>
+        <div class="comments-section">
+           
+            <div id="comments">
+               
+            </div>
+            <textarea id="commentInput" placeholder="Leave a comment..."></textarea><br>
+            <button onclick="postComment()">Post Comment</button>
+        </div>
+   
+ <!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <div class="contact-info">
+            <h4>Contact Information</h4>
+            <p>Email: terabaakagulla@yahoo.com</p>
+            <p>Phone: +61 234 567 890</p>
+        </div>
+        <div class="smediaanim">
+            <h4>Follow Us</h4>
+            <a href="https://www.facebook.com/profile.php?id=100072409145754"><img src="Images/f1logo.png" style="width: 45px;" alt="Facebook"></a>
+            <a href="https://twitter.com/subu_6996"><img src="Images/f2logo.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/iamgodofmylife/"><img src="Images/f3logo.png" style="width: 30px;" alt="Instagram"></a>
+        </div>
+        <div class="copyright">
+            <p>© 2023 Subash Joshi. All rights reserved.</p>
+            <p>Website created on January 1, 2024</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

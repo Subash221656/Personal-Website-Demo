@@ -1,0 +1,435 @@
+
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #d7d7d7;
+    background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%);
+}
+
+/* Horizontal Menu Styles */
+.horizontal-menu {
+    background-color: #4d4855;
+    background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%);
+}
+
+.horizontal-menu ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.horizontal-menu li {
+    float: left;
+}
+
+.horizontal-menu a {
+    display: block;
+    background: #F6F8F9;
+    background: radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-right: 20px;
+    padding: 15px 17px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.horizontal-menu a:hover {
+    background-color: #d7d7d7;
+    background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%);
+    transform: scale(1.1);
+}
+
+/* Vertical Menu Styles */
+.vertical-menu {
+    float: left;
+    width: 225px;
+    margin: 40px;
+	background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    margin-top: 45px;
+    padding: 35px;
+    
+    border-radius: 20%;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.vertical-menu button:hover {
+    background-color: #d7d7d7;
+    background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%);
+    transform: scale(1.1);
+}
+
+.vertical-menu ul {
+    list-style-type: none;
+}
+
+.vertical-menu li {
+    margin-bottom: 10px;
+}
+
+.vertical-menu a {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Button Vertical Menu Styles */
+.button {
+    position: relative;
+  
+    border-radius: 50%;
+    border: 2px solid white;
+    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+    padding: 40px 0;
+    width: 100px;
+	height: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px 50px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px solid white;
+    box-sizing: border-box;
+	
+}
+
+.button1:before {
+    background-image: url("Images/myfacebook.jpg");
+	
+}
+
+.button2:before {
+    background-image: url("Images/myinsta.png");
+}
+
+
+.button:before {
+    transform: scale(2);
+}
+
+/* Content Section Styles */
+.content {
+    max-width: 800px;
+    margin: 35px auto;
+	margin-right: 200px;
+    padding: 50px;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    border-radius: 20%;
+}
+
+
+.NameAnim, .BioAnim, .AcAnim, .GoAnim {
+  transition: transform 2s;
+}
+
+.NameAnim:hover, .BioAnim:hover, .AcAnim:hover, .GoAnim:hover {
+  transform: scale(1.25);
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+
+/* Second Content */
+
+.firstcontent img{
+	width: 80%;
+	margin: 75px 150px;
+}
+
+.firstcontent h1{
+	
+	margin: 5px auto; font-family: 'Times New Roman', serif; font-size: 40px; text-align: center;
+	margin-top: 100px;
+}
+
+.secondcontent{
+margin: 50px 75px;	}
+
+.secondcontent h1{
+	margin: 35px 20px;
+}
+
+.service {
+    width: 350px;
+    height: 350px;
+    margin: 10px 50px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border: 1px solid #000;
+    text-align: center;
+    transition: transform 1s;
+    border-radius: 10px;
+    border-color:  #f0f0f0;
+}
+.service:hover {
+    transform: translateY(-10px);
+}
+.service video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.service:hover .post {
+    top: 0;
+}
+.post {
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    transition: top 1s;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button10 {
+    display: none;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 12px;
+}
+.service:hover .button10 {
+    display: inline-block;
+}
+.button10:hover {
+    background-color: #f0f0f0;
+    color: #008CBA;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #4d4855;
+    background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-content h4 {
+    margin-bottom: 20px;
+}
+.footer-content p, .footer-content a {
+    margin-bottom: 10px;
+}
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-content img {
+    width: 35px;
+    height: 30px;
+}
+
+.smediaanim {  
+  position: relative;
+  bottom: 0;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+
+
+/* Style for the subject grid */
+
+
+
+#subjects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 75px;
+    padding: 50px 100px;
+	
+list-style-position: inside;
+}
+
+
+.subject-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.subject-item:hover {
+    transform: scale(1.05);
+}
+
+.subject-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 8px;
+}
+
+
+.subject-item h3 {
+    margin-top: 10px;
+	
+}
+
+.subject-item p {
+	text-align: center;
+    color: #666;
+	
+}
+
+/* Style for the education levels */
+.education-level {
+    display: flex;
+    margin: 30px;
+	padding: 50px;
+}
+
+.education-level img {
+    width: 500px;
+    height: 500px;
+    border-radius:500px;
+   
+	
+}
+
+.education-details {
+    flex-grow: 1;
+	text-align: center;
+	margin: 120px 10px;
+}
+
+
+.education-details h3{
+	font-size: 25px;
+	
+}
+
+.education-details p{
+	
+	margin: 25px 18%;
+	
+}
+
+.schedulesection {
+    max-width: 80%;
+    margin: 50px 10%;
+  
+  padding: 25px;
+    background-image: linear-gradient(to right, #b8d3fe 0%, #e3d7ff 100%);
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	
+}
+
+.schedulestudy{
+	 display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.schedulesection h2 {
+    color: #333; 
+    font-family: Arial, sans-serif;
+	margin: 1% 5%;
+}
+
+.schedulestudy table {
+    width: 100%;
+    border-collapse: collapse;
+	margin: 20px 25%;
+
+}
+
+.schedulestudy table, th, td {
+    border: 1px solid #999; 
+    padding: 10px;
+    text-align: center;
+}
+
+.schedulestudy th {
+    background-color: #f2f2f2; 
+}
+
+.schedulesection img {
+   
+	height: 75%;
+	width: 75%;
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	margin: 5% 12%;
+	border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
